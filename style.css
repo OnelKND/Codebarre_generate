@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #7899d4;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+}
+
+img {
+  width: 250px;
+}
+
+h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.search_bar {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 75%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  outline: 0;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px;
+  background-color: #7899d4;
+  color: #fff;
+  border: 1px solid #7899d4;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #97afda;
+  color: black;
+  border: 1px solid #7899d4;
+}
+
+#button_code {
+  width: 25%;
+}
+
+#box {
+  border: 1px solid #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#pdf_box {
+  width: 100%;
+}
+
+#pdf_box button {
+  width: 100%;
+}
+
+.error {
+  text-align: center;
+  font-size: 14px;
+  padding: 8px;
+  width: 100%;
+  background-color: rgb(189, 92, 92);
+  color: #fff;
+}
